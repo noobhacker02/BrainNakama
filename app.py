@@ -13,7 +13,7 @@ from googleapiclient.discovery import build
 
 app = Flask(__name__)
 socketio = SocketIO(app)
-DEVELOPER_KEY = "AIzaSyDfMbEz564iDRRn-P8ZrkRHBq3MOGCvE6s"
+DEVELOPER_KEY = "ADD YOUR KEY"
 youtube = build("youtube", "v3", developerKey=DEVELOPER_KEY)
 client = OpenAI(base_url="http://localhost:1234/v1", api_key="lm-studio")
 
